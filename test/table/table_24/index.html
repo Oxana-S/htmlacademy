@@ -1,0 +1,94 @@
+<!-- darkcyan 
+lightblue 
+lightyellow 
+lightgray 
+black 
+white -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Испытание: итоговая таблица</title>
+    <style>
+    body {
+        width: 350px;
+        margin: 0;
+        padding: 0 10px;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    th {
+        width: 33%;
+        padding: 10px;
+        color: lightyellow;
+
+        border-top: 1px solid black;
+    }
+
+    .cel_head_1 {
+        background: darkcyan;
+    }
+
+    .cel_head_2 {
+        background: lightblue;
+    }
+
+    td {
+        color: #333333;
+        padding: 10px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .col_1 {
+        text-align: left;
+    }
+
+    .col_2 {
+        text-align: center;
+    }
+
+    .col_3 {
+        text-align: right;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Итоговая таблица</h1>
+    <table>
+        <tr>
+            <th class="cel_head_1 col_1">Город</th>
+            <th class="cel_head_2 col_2">Посещений</th>
+            <th class="cel_head_1 col_3 ">%</th>
+        </tr>
+        <tr>
+            <td>СПб</td>
+            <td class="col_2">199</td>
+            <td class="col_3">65.12</td>
+        </tr>
+        <tr>
+            <td>Москва</td>
+            <td class="col_2">69</td>
+            <td class="col_3">21.3</td>
+        </tr>
+        <tr>
+            <td>Киев</td>
+            <td class="col_2">5</td>
+            <td class="col_3">8</td>
+        </tr>
+        <tr>
+            <td colspan=2>Посещений за весь период</td>
+            <td class="col_3">273</td>
+        </tr>
+    </table>
+</body>
+
+</html>
