@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Испытание: редактирование профиля</title>
+    <style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 350px;
+        padding: 10px 20px;
+        color: black;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        margin: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Профиль</h1>
+    <form action="https://echo.htmlacademy.ru" method="post">
+        Ваш пол:
+        <label for="man">
+            <input type="radio" name="sex" id="man"> Мужской
+        </label>
+        <label for="woman">
+            <input type="radio" name="sex" id="woman"> Женский
+        </label>
+        <br>
+        <label for="">Месяц и год рождения:</label>
+        <br>
+        <select name="manth[]" id="manth">
+            <option value="january">январь</option>
+            <option value="february">февраль</option>
+            <option value="march">март</option>
+            <option value="april">апрель</option>
+            <option value="may">май</option>
+            <option value="june">июнь</option>
+            <option value="july">июль</option>
+            <option value="august">август</option>
+            <option value="september">сентябрь</option>
+            <option value="october">октябрь</option>
+            <option value="november">ноябрь</option>
+            <option value="december">декабрь</option>
+        </select>
+        <select name="yare[]" id="yare">
+            <option value="82">1982</option>
+            <option value="83">1983</option>
+            <option value="84">1984</option>
+            <option value="85">1985</option>
+            <option value="86">1986</option>
+            <option value="87">1987</option>
+            <option value="88">1988</option>
+            <option value="89">1989</option>
+            <option value="90">1990</option>
+            <option value="91">1991</option>
+        </select>
+        <br>
+        <label for="">Знакомые технологии:
+            <br>
+            <select name="technology" id="technology" multiple="4" size="4">
+                <option value="html">HTML</option>
+                <option value="css" selected>CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="njs">Node.js</option>
+            </select>
+        </label>
+        <br>
+        <label for="foto">Фото:
+            <input type="file" name="foto" id="foto">
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Сохранить">
+    </form>
+</body>
+
+</html>
