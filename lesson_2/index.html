@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="keywords" content="ключевыое, слово, обучение, тренировка">
+	<meta name="description" content="Тестовый макет сайта">
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="container">
+			<nav class="main-navigation">
+				<ul class="main-navigation-list">
+					<li class="main-navigation-item--active"><a href="index.html">Информация</a></li>
+					<li class="main-navigation-item"><a href="#">Новости</a></li>
+					<li class="main-navigation-item"><a href="price.html">Прайс-лист</a></li>
+					<li class="main-navigation-item"><a href="shop.html">Магазин</a></li>
+					<li class="main-navigation-item"><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a class="login" href="#">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main class="container">
+		<div class="index-logo">
+			<img src="http://placehold.it/368x204" width="368" height="204" alt="Барбершоп Бородинский">
+		</div>
+		<section class="features">
+			<div class="features-item">
+				<b>Быстро</b>
+				<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+			</div>
+			<div class="features-item">
+				<b>Круто</b>
+				<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>
+			</div>
+			<div class="features-item">
+				<b>Дорого</b>
+				<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>
+			</div>
+		</section>
+		<div class="index-content">
+			<section class="index-content-left">
+				<h2 class="index-content-title">Новости</h2>
+				<ul class="news-preview">
+					<li>
+						<p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+						<time datetime="2-02-2018">2 февраля</time>
+					</li>
+					<li>
+						<p>В нашей команде пополнение, борис «бритва» стригунец, обладетель множества титулов и наград пополнил наши стройные ряды</p>
+						<time datetime="21-01-2018">21 января</time>
+					</li>
+				</ul>
+				<a class="btn" href="#">Все новости</a>
+			</section>
+			<section class="index-content-right">
+				<h2 class="index-content-title">Фотогалерея</h2>
+				<div class="gallery">
+					<figure>
+						<img src="http://placehold.it/286x164" alt="Фото галереи" width="286" height="164">
+					</figure>
+					<button class="btn-gallery-prev" type="button">Назад</button>
+					<button class="btn-gallery-next" type="button">Вперед</button>
+				</div>
+			</section>
+		</div>
+		<div class="index-content">
+			<section class="index-content-left">
+				<h2 class="index-content-title">Контактная информация</h2>
+				<p>Барбершоп «бородинский»
+					<br> Адрес: г. Санкт-петербург, б. Конюшенная, д. 19/8
+					<br> Телефон: +7 (495) 666-02-66
+				</p>
+				<p>Время работы:
+					<br> ПН — ПТ: С 10:00 ДО 22:00
+					<br> СБ — ВС: С 10:00 ДО 19:00
+				</p>
+				<a class="btn" href="#">Как проехать</a>
+				<a class="btn" href="#">Обратная связь</a>
+			</section>
+			<section class="index-content-right">
+				<h2 class="index-content-title">Записаться</h2>
+				<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+				<form class="appointment-form" action="#" method="post">
+					<input type="text" name="date" value="" placeholder="Дата">
+					<input type="text" name="time" value="" placeholder="Время">
+					<input type="text" name="name" value="" placeholder="Ваше имя">
+					<input type="tel" name="phone" value="" placeholder="Телефон">
+					<button class="btn" type="submit">Отправить</button>
+				</form>
+			</section>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<section class="footer-contacts">
+				Барбершоп «бородинский» Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8
+				<a href="#">Как нас найти?</a> 
+				Телефон: +7 (495) 666-02-66
+			</section>
+			<section class="footer-social">
+				<p>Давайте дружить</p>
+				<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+				<a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+			</section>
+			<section class="footer-copyright">
+				<p>Разработанно:</p>
+				<a class= "btn" href="#">htmlacademy.ru</a>
+			</section>
+		</div>
+	</footer>
+	<script>
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+	</script>
+	<!-- popup писать здесь -->
+	<!-- Форма "Авторизации на сайте" -->
+	<hr>
+	<div class="popup popup-form">
+		<h3 class="popup-form-title">Личный кабинет</h3>
+		<p class="popup-form-text">Введите пожалуйста ваш логин и пароль</p>
+		<input type="text" name="popup-form-login" placeholder="Логин" required>
+		<input type="password" name="popup-form-password" placeholder="Пароль" required>
+		<input type="checkbox" name="popup-form-rememberme" value="1"> 
+		<button class="popup-form-button">Кнопка</button>
+		<a href="#" class="popup-form-forgot">Я забыл пароль!</a>
+	</div>
+	<!-- Окно карты с адресом -->
+	<hr>
+	<div class="popup-map">
+		<img class="popup-map-cross" src="http://placehold.it/16x16" alt="Закрыть окно" >
+		<img class="popup-map-picture" src="http://placehold.it/780x574" width="780" height="574" alt="Окно карты с адресом Барбершоп" >
+	</div>
+</body>
+
+</html>
